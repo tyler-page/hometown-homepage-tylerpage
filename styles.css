@@ -1,0 +1,110 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    text-align: center;
+    border: 5px solid blue;
+   
+    font-family: 'Shantell Sans', cursive;
+}
+
+img {
+    width: 100px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.head {
+    border: 1px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-image: url("images/krakow.jpg");
+    color: black;
+    text-align: center;
+    margin:0px;
+    padding: 1rem 1rem 10rem;
+    text-shadow: 2px -3px whitesmoke;
+}
+
+.head-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.flag {
+margin-left: 1rem;
+height: 1rem;
+width: auto;
+}
+
+.activities {
+    background-color: #ccc;  
+    padding: 1rem; 
+}
+
+.activities > h3 {
+    font-size: em;
+}
+
+.attractions {
+    position: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.attraction {
+    padding: 1rem 1rem 0 1rem;
+    flex-basis: 33%;
+    align-items: stretch;
+}
+
+.attraction_image {
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: 5px solid blue;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    border: 5px solid blue;
+    padding: 2rem;
+    background-color: #ccc;
+    
+    
+}
+.avatar{
+    margin: 0;
+   width: 250px;
+   border: 4px solid blue;   
+}
+.guide{
+    border: 3px solid blue;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding: 25px; 
+    background-color: cornsilk;
+    color: black; 
+}
